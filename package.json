@@ -1,0 +1,25 @@
+{
+  "name": "roleassignmentbot",
+  "version": "1.0.0",
+  "description": "Assign Roles In Discord",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.4.1",
+    "discord.utils": "^1.0.3",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "!diablo3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Registeel/RoleAssignmentBot.git"
+  },
+  "author": "Reg Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Registeel/RoleAssignmentBot/issues"
+  },
+  "homepage": "https://github.com/Registeel/RoleAssignmentBot#readme"
+}
