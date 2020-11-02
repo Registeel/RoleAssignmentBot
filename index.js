@@ -1,8 +1,10 @@
+require('dotenv').config();
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const dUtils = require('discord.utils');
 
-TOKEN = 'NjcwNDEzNDc0NDA0MzY4NDE2.XiuBbg.GNWTvbkaUK9ZOGkiE0uhvZ4ZtQ8';
+const TOKEN = process.env.TOKEN;
+
 bot.login(TOKEN);
 
 const commandList = ["!diablo3", "!overwatch", "!apex", "!hots", "!lol", "!eso", "!fortnite",
